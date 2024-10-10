@@ -1,6 +1,7 @@
 import React from "react";
 const Contact = () => {
   return (
+
     <div id="Contact">
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -82,6 +83,7 @@ const Contact = () => {
         </div>
       </section>
     </div>
+
   )
 }
 export default Contact

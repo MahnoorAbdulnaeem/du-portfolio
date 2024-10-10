@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 import Link from "next/link";
 const Hero = () => {
   return (
-    <div className="bg-[#000000]">
+    <div className="bg-[#000000] ">
       <section className="text-black-600 body-font  bg-cover bg-center custom-image">
         <div className=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-left">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -21,15 +21,16 @@ const Hero = () => {
             </h1>
             <div className="w-[600px] h-[2px] bg-white -100"></div>
             <p className="mb-8 leading-relaxed ">
-              A passionate and skilled Frontend Web Developer committed to creating visually stunning and highly functional websites. With a solid foundation in HTML, CSS, and JavaScript, I excel at building responsive, user-friendly web applications. Currently, I am furthering my knowledge through advanced courses in Artificial Intelligence, Web 3.0, and the Metaverse. My goal is to leverage my expertise to deliver innovative digital solutions and eventually transition into a full-stack developer role.i consider myself a responsible and orderly person i am looking forward to my first work experience!!
+            A passionate Frontend Web Developer skilled in creating visually stunning and functional websites with a strong foundation in HTML, CSS, and JavaScript. Currently advancing my knowledge in Artificial Intelligence, Web 3.0, and the Metaverse, aiming to leverage my expertise for innovative digital solutions.
+             I aspire to transition into a full-stack developer role and look forward to my first work experience!
             </p>
             <div className="flex justify-center">
-        <Link href={"#Contact"}>
-        <button className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">
-          Contact
-        </button>
-        </Link>
-      </div>
+              <Link href={"#Contact"}>
+                <button className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">
+                  Contact
+                </button>
+              </Link>
+            </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <Image
@@ -45,7 +46,7 @@ const Hero = () => {
     </div>
 
 
-  
+
   )
 }
 export default Hero
